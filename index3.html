@@ -1,0 +1,124 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="google-site-verification" content="UUdlwkuTDadHsB-kp67s6myWqH3u9rIw_rZzvAx2Wz8" />
+  <meta name="google-site-verification" content="QpUDfmat1i8FfotH3XqnI3QV-s0gBAXiUfjoGmVstfQ" />
+  <title>Seativity - Personal Stylist Online</title>
+
+  <meta name="description" content="Personal Styling By Experts"/>
+
+  <link rel="stylesheet" href="global.css">  
+  <link rel="stylesheet" href="http://i.icomoon.io/public/e54e770683/Copperside/style.css">
+  <script src='jquery.min.js'></script>
+  <script src='flickity.js'></script>
+  <script src='galleryInitialization.js'></script>
+  <script src='  http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js'></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70843392-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+<style>
+  body{
+    background:#F7E7D6;
+  }
+  html{
+    overflow:hidden;
+  }
+</style>
+
+
+<!--<div class="billboard billboard-primary bg-cover bg-darken js-landing-bg" style="height:100%">
+  <a href="#" class="btn btn-block" style="z-index:500; background:white;">
+    <h5 class="screen-sm-mb0">Eyewears</h5>
+  </a>
+  <div class="aligner txt-c" style="height: 100%">
+    <div class="aligner-item">
+      <div class="layout-constrained">
+        <h3 class="em-alt">YOUR RETAILER HAS BEEN LYING TO YOU</h3>
+        
+        
+        
+        
+       <form id="email_signup" class="landing-page__subscription-form klaviyo_standard_embed_hg5vwS" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank">
+         <input type="hidden" name="g" value="hg5vwS">
+         <div class="input-cigarette" style="height:50px;">
+           <input type="email" value="" name="email" id="k_id_email" class="input input-primary input-block" placeholder="Email Address" style="height:100%;padding-right:115px;">
+           <button type="submit" class="btn btn-default em-high js-ga" style="border:1px solid;height:100%; width:110px;font-size:10px;"><span>FIND OUT MORE</span></button>
+         </div>
+         <div class="success_message" style="display:none;">         
+      		<p>Thanks! Awesome stuff coming your way! Check your inbox</p>
+         </div>
+         <div class="error_message" style="display:none;">         
+      		<p>Opps, something wrong! Please try again.</p>
+         </div>
+       </form>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<div class="p-prelaunch aligner txt-c bg-cover bg-darken js-landing-bg" style="height: 100%;">
+  <div class="aligner-item p-prelaunch__container">
+    <h2 class="p-prelaunch__text--tagline">Looks New and Now crafted to you by creative experts</h2>
+    <p class="p-prelaunch__text--secondary">Coming Soon Spring 2016</p>
+    <p class="p-prelaunch__text--secondary">Join VIP waiting list now.</p>
+
+   
+<form action="http://poon.createsend.com/t/i/s/dryktt/" method="post" id="subForm">
+       <input type="hidden" name="g" value="hg5vwS">
+       <div class="input-label-default p-prelaunch__input">
+         <label for="email">Email</label>
+         <input type="email" value="" name="cm-dryktt-dryktt" id="k_id_email" class="input input-default" required>
+         
+         <button type="submit" onClick=”_gaq.push([‘_trackEvent’, 'email', 'enter', 'submit', 0]);” class="btn btn-default btn-block js-ga">Earn free styling session</button>
+       </div>
+       <div class="success_message" style="display:none;">         
+          <p>Thank You For Signing Up! /p>
+       </div>
+       <div class="error_message" style="display:none;">         
+          <p>Opps, something wrong! Please try again.</p>
+       </div>
+    </form>
+    <script>
+  
+  $("#subForm").validate({
+   error: function(label) {
+     $(this).addClass("error");
+   },
+  });
+  </script>
+    <p class="js-subscription-confirmed hideVisually">Thank you for signing up!</p>
+  </div>
+</div>
+
+<script>
+  $( window ).load(function() {
+    var img= new Image();
+
+    // Specify the source for the image
+    var imgSource = 'landing3.jpg';
+    // only append the corresponding LI after the image is loaded
+    img.onload = function() {
+      $('.js-landing-bg').attr("style", "background-image:url('" + imgSource + "');height:100%;");
+    };
+
+    img.src = imgSource;
+  });
+  
+   
+</script>
