@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merchandiser>
+<header>
+<merchantId>3354</merchantId>
+<merchantName>LinkSquare, Inc.</merchantName>
+<createdOn>2013-05-19/22:03:34</createdOn>
+</header>
+<product product_id="1" name="A Simple Product" sku_number="SKU-SIM10001" manufacturer_name=""
+part_number="" >
+<category>
+<primary>Primary Category</primary>
+<secondary>Secondary Category</secondary>
+</category>
+<url>
+<product>http://click.linksynergy.com/link?id=xxxxxxxxxxx&amp;offerid=90431.10000046&amp;murl=http%3
+A%2F%2Fwww.examplemerchant.com%2Fa%2Fproducts%2F678262</product>
+<productImage>http://m.banner.linksynergy.com/fs/banners/2385/2385_10000046.gif</productImage>
+<buyLink>http://click.linksynergy.com/link?id=xxxxxxxxxxx&amp;offerid=90431.10000046&amp;murl=http%3
+A%2F%2Fwww.examplemerchant.com%2Fa%2Fproducts%2F678263</buyLink>
+</url>
+<description>
+<short>This is the Short Description of the Product</short>
+<long>This is the Long Description of the Product</long>
+</description>
+<discount currency="USD">
+<amount>0</amount>
+<type>amount</type>
+</discount>
+<price currency="USD">
+<sale begin_date="" end_date=""></sale>
+<retail>2.5</retail>
+</price>
+<brand></brand>
+<shipping>
+<cost currency="USD">
+<amount></amount>
+</cost>
+<information></information>
+<availability>AVAILABLE</availability>
+</shipping>
+<keywords>Simple~~Simple Product</keywords>
+<upc></upc>
+<m1></m1>
+<pixel>http://ad.linksynergy.com/fsbin/
+show?id=wYeATVOgEnE&amp;bids=80126.2&amp;type=15&amp;subid=0</pixel>
+<attributes class_id="1"></attributes>
+<modification>I</modification>
+</product>
+<product product_id="101" name="Sample Book" sku_number="SKU-SIM10101" manufacturer_name=""
+part_number="" >
+<category>
+<primary>Primary Category</primary>
+<secondary>Secondary Category</secondary>
+</category>
+<url>
+<product>http://click.linksynergy.com/link?id=xxxxxxxxxxx&amp;offerid=90431.10000046&amp;murl=htt
+p%3A%2F%2Fwww.examplemerchant.com%2Fa%2Fproducts%2F678262</product>
+<productImage>http://m.banner.linksynergy.com/fs/banners/2385/2385_10000046.gif</productImage>
+<buyLink>http://click.linksynergy.com/link?id=xxxxxxxxxxx&amp;offerid=90431.10000046&amp;murl=http%3
+A%2F%2Fwww.examplemerchant.com%2Fa%2Fproducts%2F678263</buyLink>
+</url>
+<description>
+<short>This is the Short Description</short>
+<long>This is the Long Description of the Product</long>
+</description>
+<discount currency="USD">
+<amount>0</amount>
+<type>amount</type>
+</discount>
+<price currency="USD">
+<sale begin_date="" end_date=""></sale>
+<retail>2.5</retail>
+</price>
+<brand></brand>
+<shipping>
+<cost currency="USD">
+<amount></amount>
+</cost>
+<information></information>
+<availability>AVAILABLE</availability>
+</shipping>
+<keywords>Simple~~Simple Product</keywords>
+<upc></upc>
+<m1></m1>
+<pixel>http://ad.linksynergy.com/fsbin/
+show?id=wYeATVOgEnE&amp;bids=80126.2&amp;type=15&amp;subid=0</pixel>
+<attributes class_id="10">
+<Miscellaneous>Extraneous Information</Miscellaneous>
+<Title>Title of Book</Title>
+<Author>Name of Author</Author>
+<ISBN>An ISBN number (13 characters long; ignore dashes, spaces, etc. when processing; first 9 are
+always numeric)</ISBN>
+<Publisher>Publisher</Publisher>
+<Publish_Date>Publish Date</Publish_Date>
+</attributes>
+<modification>U</modification>
+</product>
+<trailer>
+<numberOfProducts>2</numberOfProducts>
+</trailer>
+</merchandiser>
