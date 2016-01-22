@@ -89,17 +89,16 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 <div class="p-prelaunch aligner txt-c bg-cover bg-darken js-landing-bg" style="height: 100%;">
   <div class="aligner-item p-prelaunch__container">
-    <h2 class="p-prelaunch__text--tagline">One on one style advice by creative experts</h2>
-    <p class="p-prelaunch__text--secondary">Coming Spring 2016</p>
-    <p class="p-prelaunch__text--secondary">Join VIP waiting list now & Earn free styling session.</p>
+    <h2 class="p-prelaunch__text--tagline">Exclusive styling advice from celebrity stylists</h2>
+    <p class="p-prelaunch__text--secondary">Pures | The New Premium App</p>
 
    
-<form action="http://poon.createsend.com/t/i/s/dryktt/" method="post" id="subForm">
+    <form action="http://poon.createsend.com/t/i/s/dryktt/" method="post" id="subForm">
        <input type="hidden" name="g" value="hg5vwS">
        <div class="input-label-default p-prelaunch__input">
           <label for="email">Email</label>
           <input type="email" value="" name="cm-dryktt-dryktt" id="k_id_email" class="input input-default" required>
-          <button type="submit" onsubmit=”_gaq.push([‘_trackEvent’, 'email', 'enter', 'submit', 0]);” class="btn btn-default btn-block js-ga">Earn free styling session</button>
+          <button type="submit" class="btn btn-default btn-block js-ga">Request An Invitation</button>
 
        </div>
        <div class="success_message" style="display:none;">         
@@ -126,7 +125,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     var img= new Image();
 
     // Specify the source for the image
-    var imgSource = 'landing1.jpg';
+    var imgSource = 'landing5.jpg';
     // only append the corresponding LI after the image is loaded
     img.onload = function() {
       $('.js-landing-bg').attr("style", "background-image:url('" + imgSource + "');height:100%;");
@@ -134,6 +133,9 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
     img.src = imgSource;
   });
-  
+
+  $('.js-ga').click(function(){ 
+    ga('send', 'event', { eventCategory: 'Sign Up', eventAction: 'Enter', eventLabel: 'Landing', eventValue: 1});
+  });
    
 </script>
